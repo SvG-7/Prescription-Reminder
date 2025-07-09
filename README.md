@@ -42,3 +42,10 @@ The program:
 
    ```bash
    gcc main.c -o prescription
+
+## 👨‍💻 Team Members
+
+- Joseph Ramsay  
+- Soham Panchal 
+- Krishna Valkambe  
+- Saish Gondkar
