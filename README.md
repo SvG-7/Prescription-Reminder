@@ -59,13 +59,6 @@ Here’s a breakdown of how the code works:
 - Acts as a simple file-based database
 - Used with `fopen`, `fprintf`, and `fscanf`
 
-### 🗂 Example Functions:
-```c
-void addPrescription() {
-    // Takes user input for patient name, medicine, and time
-    // Stores the data in patients.txt using fprintf
-}
-
 
 ## 🚀 How to Run
 
