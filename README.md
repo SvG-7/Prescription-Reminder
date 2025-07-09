@@ -34,6 +34,38 @@ The program:
 | `README.md`    | This documentation file                 |
 
 ---
+## 🧠 Code Overview
+
+Here’s a breakdown of how the code works:
+
+### 🔸 `main.c`
+- Handles the **menu-driven interface**
+- Allows the user to:
+  - Add a patient and their prescriptions
+  - View current prescriptions
+  - Remove or update prescriptions
+  - Exit the program
+- Calls functions from `reminder.c`
+
+### 🔸 `reminder.c`
+- Contains functions for:
+  - Setting up reminders
+  - Comparing current system time with stored schedule
+  - Alerting the user when it’s time for medication
+- Uses `time.h` to fetch real-time info
+
+### 🔸 `patients.txt`
+- Stores all prescription details in a text format
+- Acts as a simple file-based database
+- Used with `fopen`, `fprintf`, and `fscanf`
+
+### 🗂 Example Functions:
+```c
+void addPrescription() {
+    // Takes user input for patient name, medicine, and time
+    // Stores the data in patients.txt using fprintf
+}
+
 
 ## 🚀 How to Run
 
